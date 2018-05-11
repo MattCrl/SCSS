@@ -1,8 +1,9 @@
 @mixin ring($color, $size) {
+  $darken: darken($color, 20%);
   height: $size;
   width: $size;
   border-radius: 66%;
-  box-shadow: inset 5px 5px 3px grey, 5px 5px 3px grey;
+  box-shadow: inset 5px 5px 3px $darken, 5px 5px 3px $darken;
   border: 8px solid $color;
   background-color: transparent;
   display: inline-block;
@@ -24,6 +25,8 @@ $size: 300px;
 .big_ring {
   @include ring($color, $size);
 }
+
+
 
 
 $color: black;
