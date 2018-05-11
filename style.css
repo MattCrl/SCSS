@@ -1,0 +1,102 @@
+.navbar-default {
+    background-color: #ff7c35;
+}
+
+body {
+    background-image: url("_bg_light.png");
+}
+
+.circle {
+    height: 80px;
+    width: 80px;
+    border-radius: 66%;
+    box-shadow: inset 5px 5px 3px grey, 5px 5px 3px grey;
+    border: 8px solid #ff7c35;
+    background-color: transparent;
+    display: inline-block;
+}
+
+h1 {
+    display: inline-block;
+    margin: 50px 20px;
+}
+
+.big_ring {
+    height: 300px;
+    width: 300px;
+    border-radius: 66%;
+    box-shadow: inset 5px 5px 3px grey, 5px 5px 3px grey;
+    border: 8px solid yellow;
+    background-color: transparent;
+    display: inline-block;
+}
+
+.loop_rings1 {
+    height: 60px;
+    width: 60px;
+    border-radius: 66%;
+    box-shadow: inset 5px 5px 3px grey, 5px 5px 3px grey;
+    border: 8px solid black;
+    background-color: transparent;
+    display: inline-block;
+    margin-left: -33px;
+}
+
+.loop_rings2 {
+    height: 75px;
+    width: 75px;
+    border-radius: 66%;
+    box-shadow: inset 5px 5px 3px grey, 5px 5px 3px grey;
+    border: 8px solid black;
+    background-color: transparent;
+    display: inline-block;
+    margin-left: -35px;
+}
+
+.loop_rings3 {
+    height: 90px;
+    width: 90px;
+    border-radius: 66%;
+    box-shadow: inset 5px 5px 3px grey, 5px 5px 3px grey;
+    border: 8px solid black;
+    background-color: transparent;
+    display: inline-block;
+    margin-left: -37px;
+}
+
+.loop_rings4 {
+    height: 105px;
+    width: 105px;
+    border-radius: 66%;
+    box-shadow: inset 5px 5px 3px grey, 5px 5px 3px grey;
+    border: 8px solid black;
+    background-color: transparent;
+    display: inline-block;
+    margin-left: -39px;
+}
+
+.loop_rings5 {
+    height: 120px;
+    width: 120px;
+    border-radius: 66%;
+    box-shadow: inset 5px 5px 3px grey, 5px 5px 3px grey;
+    border: 8px solid black;
+    background-color: transparent;
+    display: inline-block;
+    margin-left: -41px;
+}
+
+.loop_rings6 {
+    height: 135px;
+    width: 135px;
+    border-radius: 66%;
+    box-shadow: inset 5px 5px 3px grey, 5px 5px 3px grey;
+    border: 8px solid black;
+    background-color: transparent;
+    display: inline-block;
+    margin-left: -43px;
+}
+
+.loops {
+    margin-left: 33px;
+}

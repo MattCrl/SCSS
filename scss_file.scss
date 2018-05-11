@@ -1,0 +1,43 @@
+@mixin ring($color, $size) {
+  height: $size;
+  width: $size;
+  border-radius: 66%;
+  box-shadow: inset 5px 5px 3px grey, 5px 5px 3px grey;
+  border: 8px solid $color;
+  background-color: transparent;
+  display: inline-block;
+}
+
+$color: #ff7c35;
+$size: 80px;
+.circle {
+  @include ring($color, $size);
+}
+
+h1 {
+  display: inline-block;
+  margin: 50px 20px;
+}
+
+$color: yellow;
+$size: 300px;
+.big_ring {
+  @include ring($color, $size);
+}
+
+
+$color: black;
+$size: 45px;
+$margin: -33px;
+@for $i from 1 through 6 {
+  $size: $size + 15px;
+  .loop_rings#{$i} {
+    @include ring($color, $size);
+    margin-left: $margin;
+  }
+  $margin: $margin - 2px;
+}
+
+.loops {
+  margin-left: 33px;
+}
