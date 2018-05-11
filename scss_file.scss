@@ -10,10 +10,8 @@
   display: inline-block;
 }
 
-$color: #ff7c35;
-$size: 80px;
 .circle {
-  @include ring($color, $size);
+  @include ring(#ff7c35, 80px);
 }
 
 h1 {
@@ -21,22 +19,17 @@ h1 {
   margin: 50px 20px;
 }
 
-$color: yellow;
-$size: 300px;
 .big_ring {
-  @include ring($color, $size);
+  @include ring(yellow, 300px);
 }
 
 
-
-
-$color: black;
 $size: 45px;
 $margin: -33px;
 @for $i from 1 through 6 {
   $size: $size + 15px;
   .loop_rings#{$i} {
-    @include ring($color, $size);
+    @include ring(black, $size);
     margin-left: $margin;
   }
   $margin: $margin - 2px;
